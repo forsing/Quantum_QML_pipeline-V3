@@ -109,9 +109,9 @@ def rekonstruisi_next_kombinaciju_v3(kvantni_prostor_v3):
     return sorted(sledeca_kombinacija)
 
 if __name__ == "__main__":
-    # PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85.csv"
-    # PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_2976.csv"
-    PUTANJA_DO_BAZE = "/Users/4c/Desktop/GHQ/data/loto7_4708_k85_loto_plus_1732.csv"
+    # PUTANJA_DO_BAZE = "/data/loto7_4708_k85.csv"
+    # PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_2976.csv"
+    PUTANJA_DO_BAZE = "/data/loto7_4708_k85_loto_plus_1732.csv"
     
     print("="*70)
     print(" DSMcode QML PIPELINE v3 - CIKLIČNO DVOSMERNO PREPLITANJE REGISTARA ")
@@ -139,7 +139,7 @@ if __name__ == "__main__":
 [+] Pretražujem dvosmerni interferencijski profil talasnih funkcija (V3)...
 ======================================================================
 [+] DVOSMERNA SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA.
-[+] Jednoznačna V3 NEXT kombinacija za sledeće kolo: [8, 11, 13, 15, 25, 31, 38]
+[+] Jednoznačna V3 NEXT kombinacija za sledeće kolo: [8, x, 13, y, 25, z, 38]
 ======================================================================
 
 
@@ -157,7 +157,7 @@ if __name__ == "__main__":
 [+] Pretražujem dvosmerni interferencijski profil talasnih funkcija (V3)...
 ======================================================================
 [+] DVOSMERNA SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA.
-[+] Jednoznačna V3 NEXT kombinacija za sledeće kolo: [2, 5, 7, 27, 28, 31, 36]
+[+] Jednoznačna V3 NEXT kombinacija za sledeće kolo: [2, x, 7, y, 28, z, 36]
 ======================================================================
 
 
@@ -175,7 +175,7 @@ if __name__ == "__main__":
 [+] Pretražujem dvosmerni interferencijski profil talasnih funkcija (V3)...
 ======================================================================
 [+] DVOSMERNA SKRIVENA ZAVISNOST USPEŠNO IZOLOVANA.
-[+] Jednoznačna V3 NEXT kombinacija za sledeće kolo: [2, 6, 9, 23, 29, 30, 36]
+[+] Jednoznačna V3 NEXT kombinacija za sledeće kolo: [2, x, 9, y, 29, z, 36]
 ======================================================================
 """
 
